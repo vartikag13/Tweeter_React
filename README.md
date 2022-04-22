@@ -1,4 +1,4 @@
-# Tweeter Project
+# Tweeter Project using React
 
 Tweeter is a simple, single-page Twitter clone. User can write and post tweets. There is some validation added on the text entered by the user - character limit check and a check to verify that user is not posting an empty tweet.
 
