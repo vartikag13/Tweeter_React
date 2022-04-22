@@ -22,14 +22,14 @@ const tweet2 = {
 function TweetList() {
     return (
       <section className="tweets">
-        <Tweet
-          avatar={tweet1.avatar}
+        <Tweet {...tweet1} />
+          {/* avatar={tweet1.avatar}
           firstName={tweet1.firstName}
           lastName={tweet1.lastName}
           handle={tweet1.handle}
           body={tweet1.body}
           age={tweet1.age}
-        />
+        /> */}
         
         <Tweet
           avatar={tweet2.avatar}
